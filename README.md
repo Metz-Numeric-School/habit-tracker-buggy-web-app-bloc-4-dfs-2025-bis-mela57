@@ -51,3 +51,9 @@ Le code doit impérativement être push sur le repo GitHub Classroom qui vous a 
 **!!! ATTENTION : la partie 2 ne sera pas évaluée si ce n'est pas le cas !!!**
 
 # BONNE CHANCE
+
+
+AApanel 
+Nom de la base de données : sql_172_17_434
+Nom d'utilisateur: sql_172_17_434
+Mot de passe: e42392ba58dfc

@@ -28,6 +28,7 @@ class DashboardController extends AbstractController
         $totalHabits = count($habits);
 
         // Nombre total d'habitudes complétées aujourd'hui (anonyme)
+        //test
         $completedToday = $this->habitLogRepository->countAllCompletedToday();
 
         return $this->render('admin/dashboard/index.html.php', [

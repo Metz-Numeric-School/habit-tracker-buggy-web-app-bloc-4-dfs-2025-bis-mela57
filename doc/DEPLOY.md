@@ -1,4 +1,6 @@
 # Procédure de Déploiement
+## Préparation du VPS
+## Méthode de déploiement
 
 Décrivez ci-dessous votre procédure de déploiement en détaillant chacune des étapes. De la préparation du VPS à la méthodologie de déploiement continu.
 
@@ -50,7 +52,7 @@ URL=https://www.aapanel.com/script/install_7.0_en.sh && if [ -f /usr/bin/curl ];
 
 1. Cliquer sur "Add site"
 2. Mettre l'IP de la machine dans le nom de domaine
-3. Description : nom du projet (ex: bloc4REAClement)
+3. Description : nom du projet (ex: habit-tracker-buggy-web-app-bloc-4-dfs-2025-bis-mela57)
 4. Renommer le dossier avec le nom de la description
 5. Base de données : **MySQL**
 6. Décocher "create html file"
@@ -195,10 +197,3 @@ git push vps tag 1.0.0
 - Possibilité d'ajouter des gitmojis ou autres noms personnalisés
 - Git cliff calcule automatiquement les tags avec la commande `--bump`
 
-## Préparation du VPS
-
-Todo...
-
-## Méthode de déploiement
-
-Todo...

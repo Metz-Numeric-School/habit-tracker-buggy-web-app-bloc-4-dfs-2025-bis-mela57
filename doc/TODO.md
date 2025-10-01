@@ -18,6 +18,6 @@ Suite à un audit effectué en amont, voici les failles et les bugs qui ont ét�
 **ATTENTION : certains bugs n'ont pas été listé**
 
 Beaucoup d'entrées n'ont pas de htmlspecialchars ce qui cause des failles XSS
-Les mots de passes n'ont pas de passwordhash, don si jais la base de données est hackées, tous les mots de passe sont en clairs
-Les requetes ne sont pas préparées, il aurait fallu inclure soit bindParam soit l'attribut prepare()
-Dan sle securityController on retrouve un die ce qui fait qu ele code qui suit n'est pas exécuté, ce qui explique pourquoi des utilisateur non admin ont accès a l'interface de gestion des utilisateurs 
+Les mots de passes n'ont pas de passwordhash, donc si jamais la base de données est hackée, tous les mots de passe sont en clairs
+Toutes les requetes ne sont pas préparées, il aurait fallu inclure soit bindParam soit l'attribut prepare()
+Dans le securityController on retrouve un die ce qui fait que le code qui suit n'est pas exécuté, ce qui explique pourquoi des utilisateur non admin ont accès a l'interface de gestion des utilisateurs.
